@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wraper{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0px auto;
+}
+.acardion-col-2-11{
+    width: 80%;
+    margin: 0px auto;
+}
+aside{
+    width: 150px;
+    float: left;
+}
