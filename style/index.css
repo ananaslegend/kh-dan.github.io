@@ -38,6 +38,9 @@ header{
 .header-string{
     display: flex;
 }
+.aside-head{
+    display: none;
+}
 .phone-number-col-11, .social-col-7-8{
     display: flex;
     align-items: center;
@@ -107,7 +110,9 @@ hr{
     border-radius: 30%;
     background-color: rgba(0,0,0,0.3);
 }
-
+.aside-logo{
+    display: none;
+}
 .card{
     border: 2px solid black;
     border-radius: 30px; 
@@ -397,7 +402,7 @@ footer a{
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 1171px){
+@media screen and (max-width: 800px){
     header, main, footer{
         display: none !important;
     }
@@ -406,9 +411,23 @@ footer a{
         position: static;
         background-color: rgba(51,51,51,1) !important;
         height: auto;
-        font-size: 17pt;
+        font-size: 24pt;
     }
     hr{
-        width: 10vh;
+        width: 20vh;
+    }
+    .aside-logo{
+        display: flex;
+        margin: 40px 0px;
+        justify-content: center;
+
+    }
+    .nav-button{
+        display: none;
+    }
+    .aside-head{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
