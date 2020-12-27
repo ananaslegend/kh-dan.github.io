@@ -412,10 +412,10 @@ footer a{
         position: static;
         background-color: rgba(51,51,51,1) !important;
         height: auto;
-        font-size: 24pt;
+        font-size: 28pt;
     }
     hr{
-        width: 20vh;
+        width: 10vh;
     }
     .aside-logo{
         display: flex;
@@ -428,7 +428,7 @@ footer a{
     }
     .aside-head{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 }
