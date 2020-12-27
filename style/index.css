@@ -332,6 +332,7 @@ footer a{
     color:rgba(235,87,87,1);
     font-size:20px;
 }
+
 @media screen and (max-width: 1400px){
     aside{
         width: 100px !important;
@@ -402,7 +403,7 @@ footer a{
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     header, main, footer{
         display: none !important;
     }
